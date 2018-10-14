@@ -1,0 +1,32 @@
+{
+  "name": "algo-progress-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/algo.js",
+  "bin": {
+    "algopm": "./bin/progress-monitor"
+  },
+  "scripts": {
+    "install-locally": "npm install -g ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCLeuvenLimburg/algo-progress-monitor.git"
+  },
+  "keywords": [],
+  "author": "Frederic Vogels",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UCLeuvenLimburg/algo-progress-monitor/issues"
+  },
+  "homepage": "https://github.com/UCLeuvenLimburg/algo-progress-monitor#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "commander": "^2.17.1",
+    "file-url": "^2.0.2",
+    "puppeteer": "^1.7.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "simple-git": "^1.96.0"
+  }
+}
